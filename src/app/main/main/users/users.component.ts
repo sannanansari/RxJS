@@ -28,7 +28,7 @@ export class UsersComponent implements OnInit {
   // Handler responsible for storing the user information in user object.
   getAllUsersByHandler(object: users[]) {
     this.users = object;
-    // console.log("object ==> ",this.users)
+    console.log("object ==> ",this.users)
   }
 
   // Handler to tell error which can be reuse.
